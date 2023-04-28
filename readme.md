@@ -69,3 +69,7 @@ The `VinDecoder` component requires PHP 7.1 or later and the [Yii2 framework](ht
 ## License
 
 The `VinDecoder` component is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Author
+
+The `VinDecoder` was developed and brought to you free of charge by GerTex, LLC
