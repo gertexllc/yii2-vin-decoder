@@ -1,17 +1,39 @@
-# Ignore composer's vendor directory
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
 /vendor
 
-# Ignore composer's autoloader
-/vendor/autoload.php
+# composer itself is not needed
+composer.phar
+composer.lock
 
-# Ignore Yii2's runtime directory
-/runtime
+# Mac DS_Store Files
+.DS_Store
 
-# Ignore local configuration files
-/config/*.local.php
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
 
-# Ignore git files
-.git
+tests/_output/*
+tests/_support/_generated
 
-# Ignore PHPStorm's project files
-.idea
+#vagrant folder
+/.vagrant
+
+# /config/db.php
+
+.env
+.env-dev
