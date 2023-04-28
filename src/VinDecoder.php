@@ -1,6 +1,6 @@
 <?php
 
-namespace gertexllc\yii2\vindecoder;
+namespace gertexllc\vindecoder;
 
 /**
  * VinDecoder is a Yii2 component for decoding vehicle VINs.

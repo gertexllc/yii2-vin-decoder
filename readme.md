@@ -19,12 +19,12 @@ To use the `VinDecoder` component in your Yii2 application, you first need to co
 ```php
 'components' => [
     'vinDecoder' => [
-        'class' => 'gertexllc\yii2\vindecoder\VinDecoder',
+        'class' => 'gertexllc\vindecoder\VinDecoder',
     ],
 ],
 ```
 
-You can then use the `vinDecoder` component in your application code to decode VINs. Here's an example:
+You can then use the `VinDecoder` component in your application code to decode VINs. Here's an example:
 
 ```php
 try {

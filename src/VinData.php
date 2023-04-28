@@ -1,6 +1,6 @@
 <?php
 
-namespace gertexllc\yii2\vindecoder;
+namespace gertexllc\vindecoder;
 
 /**
  * VinData is a container for decoded vehicle VIN data.
