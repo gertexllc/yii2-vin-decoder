@@ -1,0 +1,17 @@
+# Ignore composer's vendor directory
+/vendor
+
+# Ignore composer's autoloader
+/vendor/autoload.php
+
+# Ignore Yii2's runtime directory
+/runtime
+
+# Ignore local configuration files
+/config/*.local.php
+
+# Ignore git files
+.git
+
+# Ignore PHPStorm's project files
+.idea

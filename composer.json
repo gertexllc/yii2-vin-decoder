@@ -1,15 +1,33 @@
 {
-  "name": "$vendor_name$/$package_name$",
-  "description": "$description$",
-  "minimum-stability": "$stability$",
-  "license": "$license$",
+  "name": "gertexllc/yii2-vin-decoder",
+  "description": "A Yii2 component for decoding vehicle VINs",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "component",
+    "vin decoder"
+  ],
+  "license": "MIT",
   "authors": [
     {
-      "name": "$author$",
-      "email": "$email$"
+      "name": "Andreas Hinderberger",
+      "email": "info@gertex.us"
     }
   ],
   "require": {
-    $END$
+    "php": ">=7.1",
+    "yiisoft/yii2": "^2.0",
+    "ext-json": "*",
+    "yidas/yii2-bower-asset": "2.0.13.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "gertexllc\\yii2\\vindecoder\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
   }
 }
