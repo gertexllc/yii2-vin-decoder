@@ -1,5 +1,3 @@
-Sure, here is an updated version of the `README.md` file for the `VinDecoder` component:
-
 # VinDecoder
 
 `VinDecoder` is a Yii2 component that decodes vehicle VINs using the NHTSA VIN decoder API. The component validates whether the VIN is correctly formatted and the check digits are correct, then submits it to the API and returns the result as an associative array.
